@@ -26,8 +26,7 @@ const Index = (props: IIndexProps) => {
 Index.getInitialProps = async ({ req }) => {
   return {
     products: [
-      {id: "nextjs_halfmoon", name: "Halfmoon Betta", price: 25.00, image: "../static/halfmoon.jpg", description: "The Halfmoon betta is arguably one of the prettiest betta species. It is recognized by its large tail that can flare up to 180 degrees."} as IProduct,
-      {...}
+      {id: "nextjs_halfmoon", name: "Halfmoon Betta", price: 25.00, image: "../static/kirin.png", description: "The Halfmoon betta is arguably one of the prettiest betta species. It is recognized by its large tail that can flare up to 180 degrees."} as IProduct,
     ]
   }
 }
